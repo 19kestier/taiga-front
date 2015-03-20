@@ -253,6 +253,8 @@ ProjectMenuDirective = ($log, $compile, $auth, $rootscope, $tgAuth, $location, $
             baseUrl = "https://appear.in/"
         else if project.videoconferences == "talky"
             baseUrl = "https://talky.io/"
+        else if project.videoconferences == "jitsi"
+            baseUrl = "https://meet.jit.si/"
         else
             return ""
 
